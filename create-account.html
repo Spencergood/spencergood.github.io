@@ -3,6 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="MNDFL exists to enable humans to feel good – NYC meditation studio">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+<link rel="stylesheet" href="https://integrations.marianatek.com/lib/mariana_web_integrations/3.*.*.css">
 <link rel="stylesheet" href="/assets/css/styles.css">
 <script src="https://use.fontawesome.com/30c18e4384.js"></script>
 <title>Create Account | MNDFL</title>
@@ -78,7 +79,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
 <div class="classes" ng-app="class-list" ng-controller="ClassListCtrl">
   <div class="hero">
-    <h1>Create an Account</h1>
+    <h1>Our Classes</h1>
   </div>
 
   <section class="section center">
@@ -426,15 +427,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </section>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.5.8/angular-resource.min.js"></script>
-<script>
-  var app = angular.module('class-list', []);
-  app.controller("ClassListCtrl", function($scope) {
-    $scope.classes = ['1'];
-  });
-</script>
-
 
   <footer>
     <section class="section bg-dark-gray center">
@@ -585,3 +577,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   })();
 </script>
+<script>
+var MT_CONFIG = {
+    subDomain: 'YOUR_ACCOUNT_NAME_HERE',
+};
+</script>
+<script src="https://integrations.marianatek.com/lib/mariana_web_integrations/3.*.*.js" charset="utf-8"></script>
