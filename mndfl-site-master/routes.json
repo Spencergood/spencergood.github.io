@@ -1,0 +1,91 @@
+{
+  "routes": [
+    {
+      "name": "zingfit-gift",
+      "path": "http://mndfl.zingfit.com/reserve/index.cfm?action=GiftCard.new"
+    },
+    {
+      "name": "teacher-training",
+      "path": "http://www.mndflteachertraining.com/"
+    },
+    {
+      "name": "shopify-page",
+      "path": "https://mndflmeditation.myshopify.com/"
+    },
+    {
+      "name": "mndfl-video",
+      "path": "http://video.mndflmeditation.com/"
+    },
+    {
+      "name": "zingfit-williamsburg",
+      "path": "http://mndfl.zingfit.com/reserve/index.cfm?action=Reserve.chooseClass&site=3"
+    },
+    {
+      "name": "zingfit-UES",
+      "path": "http://mndfl.zingfit.com/reserve/index.cfm?action=Reserve.chooseClass&site=2"
+    },
+    {
+      "name": "zingfit-greenwich",
+      "path": "http://mndfl.zingfit.com/reserve/index.cfm?action=Reserve.chooseClass&site=1"
+    },
+    {
+      "name": "zingfit-main",
+      "path": "https://mndfl.zingfit.com/"
+    },
+    {
+      "name": "404",
+      "path": "404.html",
+      "template": "404.html"
+    },
+    {
+      "name": "styleguide",
+      "path": "styleguide",
+      "template": "styleguide.html"
+    },
+    {
+      "name": "teachers",
+      "path": "teachers",
+      "template": "teachers.html"
+    },
+    {
+      "name": "privacy-policy",
+      "path": "privacy-policy",
+      "template": "privacy-policy.html"
+    },
+    {
+      "name": "classes",
+      "path": "classes",
+      "template": "classes.html"
+    },
+    {
+      "name": "rentals",
+      "path": "rentals",
+      "template": "rentals.html"
+    },
+    {
+      "name": "education",
+      "path": "education",
+      "template": "education.html"
+    },
+    {
+      "name": "work",
+      "path": "work",
+      "template": "work.html"
+    },
+    {
+      "name": "home",
+      "path": "index.html",
+      "template": "home.html"
+    },
+    {
+      "name": "studio-select",
+      "path": "studios",
+      "template": "studio-select.html"
+    },
+    {
+      "name": "locations",
+      "path": "locations",
+      "template": "locations.html"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.DS_STORE
+.sass-cache
+*.sw[pmno]
+*~
+*.css
+*.css.map
+
+# generated from liz
+build/

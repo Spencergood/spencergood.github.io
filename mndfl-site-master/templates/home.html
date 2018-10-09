@@ -1,0 +1,404 @@
+
+{% extends "base.html" %}
+{% block HEAD %}
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
+{% endblock HEAD %}
+
+{% block title %}Home{% endblock title %}
+{% block content %}
+
+<div class="hero">
+  <h1>Space to Breathe</h1>
+  <a class="blank" href="{{ url('studio-select') }}">
+    <button>
+      Book Your Cushion
+    </button>
+  </a>
+  <a class="blank" href="{{ url('zingfit-gift') }}">
+    <button>
+      Gift A Cushion
+    </button>
+  </a>
+  <br> <!-- add slight offset to centering -->
+</div>
+
+<section class="section center">
+  <h3>
+    MNDFL exists to enable humans to feel good. We are<br>
+    New York City’s premier meditation studio.
+    <div class="anchor">
+      <a href="#questions">Have MNDFL Questions?</a>
+    </div>
+  </h3>
+</section>
+<section class="full-width press bg-light-green">
+  <h3 class="center">MNDFL in the press</h3>
+  <div class="carousel full-width" >
+    <div>
+      <a target="_blank" rel="noopener" href="https://mobile.nytimes.com/2016/03/20/nyregion/no-texts-please-were-meditating.html">
+        <img src="/assets/img/press/1.png">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" rel="noopener" href="https://www.nytimes.com/2016/02/02/t-magazine/urban-meditation-destinations-los-angeles-new-york.html?_r=1">
+        <img src="/assets/img/press/2.gif">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" rel="noopener" href="https://www.forbes.com/sites/elanagross/2016/12/19/ellie-burrows-mndfl/#6f4eda784e2d">
+        <img src="/assets/img/press/3.png">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" rel="noopener" href="https://www.vogue.com/article/meditation-yoga-mndfl-studio-new-york-city">
+        <img src="/assets/img/press/4.png">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" rel="noopener" href="https://www.theatlantic.com/video/index/422337/mindfulness-gym/">
+        <img src="/assets/img/press/5.png">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" rel="noopener" href="https://www.wsj.com/articles/meditation-centers-get-in-touch-with-modern-age-1451078424">
+        <img src="/assets/img/press/6.png">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" rel="noopener" href="https://www.buzzfeed.com/citibank/a-helpful-guide-to-making-it-in-nyc-for-every-personality?utm_term=.ojq3vGMBD#.bgBX2QvwK">
+        <img src="/assets/img/press/7.png">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" rel="noopener" href="http://www.grubstreet.com/bestofnewyork/meditation-classes-nyc.html">
+        <img src="/assets/img/press/8.png">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" rel="noopener" href="https://www.cbsnews.com/video/faith-spirituality-the-future/">
+        <img src="/assets/img/press/9.png">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" rel="noopener" href="https://www.thecut.com/2016/11/why-you-suck-at-stuff-and-how-to-get-better.html">
+        <img src="/assets/img/press/10.png">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" rel="noopener" href="https://qz.com/917029/mindfulness-companies-like-etsy-etsy-are-increasingly-giving-meditation-classes-to-employees-as-work-perks/">
+        <img src="/assets/img/press/11.png">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" rel="noopener" href="https://www.timeout.com/newyork/things-to-do/best-places-to-meditate-in-nyc">
+        <img src="/assets/img/press/12.png">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" rel="noopener" href="https://www.refinery29.com/2016/08/118362/meditation-30-day-challenge">
+        <img src="/assets/img/press/13.png">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" rel="noopener" href="https://www.wellandgood.com/good-sweat/mindfulness-meditation-exercise-fitness-upgrade-video/">
+        <img src="/assets/img/press/14.png">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" rel="noopener" href="https://www.architecturaldigest.com/story/mndfl-mediation-vertical-garden">
+        <img src="/assets/img/press/15.png">
+      </a>
+    </div>
+  </div>
+</section>
+<div class="crop">
+  <img class="full-width" src="/assets/img/home/group.jpg">
+</div>
+
+<section class="section center">
+  <h3>
+    Our studios are meant to feel like home. Or, at least, the spacious
+    home you’d love to have in New York.
+  </h3>
+  <a class="button" href="{{ url('locations') }}">
+    <button>
+      See Our Locations
+    </button>
+  </a>
+</section>
+
+<div class="crop">
+  <img class="full-width" src="/assets/img/home/cushions.jpg">
+</div>
+
+<section class="section center">
+  <h3>
+    We feature expert teachers from a variety of traditions offering
+    simple techniques in an accessible manner. Even if you think you
+    can’t meditate, we have teachers who will prove you delightfully
+    wrong.
+  </h3>
+  <a class="button" href="{{ url('teachers') }}">
+    <button>
+      Meet Our Teachers
+    </button>
+  </a>
+</section>
+
+<div class="crop">
+  <img class="full-width" src="/assets/img/home/teaching.jpg">
+</div>
+<section class="section center">
+  <h3>
+    Classes are 30, 45 and 60 minutes, and start at $10.
+  </h3>
+  <h3>
+    When classes are not in session, the studio is open for self-guided
+    practice. We created a space for both new and experienced
+    practitioners. Bonus: everyone <br>is super friendly.
+  </h3>
+  <a class="button" href="{{ url('classes') }}">
+    <button>
+      Explore our Classes and Pricing
+    </button>
+  </a>
+</section>
+
+<!-- Q&A -->
+<a name="questions"></a>
+<div class="questions">
+  <div class="half">
+    <div class="left content">
+      <div class="title">
+        In the Class
+      </div>
+      <div class="item">
+        <div class="question">
+          What are good classes to start with?
+        </div>
+        <div class="answer">
+          Our MNDFL Breath, Sound, or Heart classes are a great place to
+          start.
+        </div>
+        <div class="cta">
+          <a href="{{ url('classes') }}">Explore Our Classes</a>
+        </div>
+      </div>
+      <div class="item">
+        <div class="question">
+          What should I wear to class?
+        </div>
+        <div class="answer">
+          We have no specific dress code, however we suggest wearing
+          something you feel comfortable to sit in whether jeans or
+          workout clothes. Since we ask you to remove your shoes at the
+          door, bring your favorite cozy socks or feel free to go
+          barefoot. Suits or skirts are also welcome although we don’t
+          recommend the mini kind.
+        </div>
+      </div>
+      <div class="item">
+        <div class="question">
+          What will I sit on in class?
+        </div>
+        <div class="answer">
+          MNDFL exists to make meditation accessible to everyone. With
+          that in mind, we have chairs, two types of cushions (zafus and
+          gomdens), and backjacks (for extra back support) for you to
+          choose from. If you are concerned about being comfortable
+          during the session, please call us at 212.477.0487 to discuss
+          further options.
+        </div>
+      </div>
+      <div class="item">
+        <div class="question">
+          Can I bring my kids to class?
+        </div>
+        <div class="answer">
+          We recommend MNDFL Breath and Intentions classes for kids nine
+          and older. You know your child best though, so if you are
+          confident that they can sit still in a class for a half hour
+          feel free to bring them. We also run special kids events so
+          check out our schedule for those!
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="faq-1 half hidden-sm">
+  </div>
+</div>
+<div class="questions">
+  <div class="faq-2 half hidden-sm">
+  </div>
+  <div class="half">
+    <div class="right content">
+      <div class="title">
+        Outside the Class
+      </div>
+      <div class="item">
+        <div class="question">
+          Can you bring MNDFL to my office?
+        </div>
+        <div class="answer">
+          Yes, one of the best parts about meditation is that it’s so
+          portable. As are our teachers!
+        </div>
+        <div class="cta">
+          <a href="{{ url('work') }}">Get MNDFL @ Work</a>
+        </div>
+      </div>
+      <div class="item">
+        <div class="question">
+          How can I bring MNDFL meditation to a school?
+        </div>
+        <div class="answer">
+          We offer a variety of programs to help bring meditation to
+          school-aged children.
+        </div>
+        <div class="cta">
+          <a href="{{ url('education') }}">Visit MNDFL Ed.</a>
+        </div>
+      </div>
+      <div class="item">
+        <div class="question">
+          Can I rent your space for my own event?
+        </div>
+        <div class="answer">
+          Yes, we totally get that you want to make your event as MNDFL
+          as possible, and we can help with that.
+        </div>
+        <div class="cta">
+          <a href="{{ url('rentals') }}">Rent Space @MNDFL</a>
+        </div>
+      </div>
+      <div class="item">
+        <div class="question">
+          Do you offer MNDFL Teacher Training?
+        </div>
+        <div class="answer">
+          Yes! We accept applications on a rolling basis
+          <a href="http://www.mndflteachertraining.com/">here</a>.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="crop">
+  <img class="full-width" src="/assets/img/home/gift.jpg">
+</div>
+
+<section class="section center">
+  <h3>
+    Want to really be someone’s BFF? Share the meditation goodness with
+    a gift card.
+  </h3>
+  <a class="button" href="{{ url('zingfit-gift') }}">
+    <button>
+      Gift a Class
+    </button>
+  </a>
+</section>
+
+<section class="section bg-light-green">
+  <div class="container meet-founders">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="heading">
+          Letter from the Founders
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <img class="full-width" src="/assets/img/home/founders.jpg">
+      </div>
+      <div class="letter col-xs-12 col-sm-9 col-md-6">
+        <div class="quote">
+          <p>Hey you,
+          <br>
+          <br>
+          <p>Thanks for your interest in MNDFL. Our mission is pretty
+          simple: we exist to enable humans to feel good. We're
+          officially inviting you to become a part of a community that
+          is devoted to supporting your practice and making you feel at
+          home. Our intention was to create an optimal environment for
+          meditation and relaxation and when you walk through our doors,
+          you're going to see and feel that immediately. Come for a sit
+          and you'll be given the grand tour by our super friendly front
+          desk staff, and introduced to the different types of
+          meditation we offer. We're here to help you find the right
+          teachers and classes for you and support you in building and
+          maintaining your practice.  We have so much to share with you
+          and we can't wait to welcome you to our very special space.
+          <br>
+          <br>
+          <p>Warmly,
+          <br>Ellie and Lodro
+        </div>
+        <div class="founders">
+          <div class="founder">
+            <strong>Lodro Rinzler</strong>
+            <div class="title">
+              Chief Spiritual Officer
+            </div>
+          </div>
+          <div class="founder">
+            <strong>Ellie Burrows</strong>
+            <div class="title">
+              Chief Executive Officer
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+<script>
+var $jq = jQuery.noConflict();
+$jq(document).ready(function() { 
+  $jq('.carousel').slick({
+    mobileFirst: true,
+    variableWidth: true,
+    centerMode: true,
+    autoplay: true,
+    responsive: [
+    { 
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 4,
+        variableWidth: true
+      }
+    },
+    { 
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 3
+      }
+    },
+    { 
+      breakpoint: 300,
+      settings: {
+        slidesToShow: 1
+      }
+    },
+    { 
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+    ]
+  });
+});
+</script>
+{% endblock content %}
+

@@ -1,0 +1,164 @@
+
+{% extends "base.html" %}
+{% block title %}Teachers{% endblock title %}
+{% block content %}
+<style>
+  *[ng-cloak], .ng-cloak {
+    display: none;
+  }
+</style>
+
+<div class="teachers" ng-app="teacher-search" ng-controller="TeacherSearchCtrl">
+
+  <div class="hero">
+    <h1>Teachers</h1>
+  </div>
+
+  <section class="section container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="body-2">
+          Each of our classes are taught by certified expert teachers in
+          a variety of meditation traditions. They're always available
+          before, during and after class to support your practice.
+          <br>
+          <br>
+        </div>
+        <div class="body-2">
+          Find your teacher:
+        </div>
+        <input class="search" ng-model="query" type="text" placeholder="Seach by name, location or tradition.">
+        <div class="body-3">
+          For example, try “Lodro” or “Zen”
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section bg-light-gray">
+    <div class="container">
+      <div class="results">
+        <div ng-if="query" ng-cloak class="message">
+          {% raw %}
+          Results for <span class="query">“{{ query }}”</span>:
+          {% endraw %}
+        </div>
+        <div ng-cloak class="items">
+          <div ng-if="query == 'initialize'">
+            init
+          </div>
+          <div class="teacher"
+               ng-show="teacher.bio"
+               ng-repeat="teacher in teachers | filter:searchFilter | limitTo:resultLimit">
+            {% raw %}
+            <div class="row">
+              <div class="col-md-4">
+                <img class="full-width" 
+                     ng-src="{{ _get_img_url(teacher) }}">
+              </div>
+              <div class="col-md-7">
+                <div class="info">
+                  <div class="name">
+                    {{ teacher.name }}
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <a class="zingfit blank" ng-href="{{teacher.booking_link}}">
+                        <button>
+                          Meditate With Me
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p><strong>Tradition</strong>
+                      <br>{{ teacher.tradition }}
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p><strong>Location</strong>
+                      <br>{{ teacher.locations_label }}
+                    </div>
+                  </div>
+                  <div ng-if="teacher.bio" class="row">
+                    <div class="col-md-12">
+                      <p class="bio"><strong>Bio</strong>
+                      <br><span ng-bind-html="teacher.bio | trust "></span>
+                    </div>
+                  </div>
+                  <div ng-if="teacher.description" class="row">
+                    <div class="col-md-12">
+                      <p class="bio"><strong>{{ ::teacher.author }} says…</strong>
+                      <span ng-bind="teacher.description"></span>
+                    </div>
+                  </div>
+                  <div ng-if="teacher.recommended_reading" 
+                       class="recommended-reading row">
+                    <div class="col-md-12">
+                      <p><strong>Recommended Reading:</strong>
+                      <p><span ng-bind-html="teacher.recommended_reading | trust "></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endraw %}
+          </div>
+          <div ng-if="!isExpanded" class="expand-teachers">
+            <p><a ng-click="expandResults()">See All Teachers</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.5.8/angular-resource.min.js"></script>
+<script>
+  var app = angular.module('teacher-search', ["ngResource"]);
+  app.filter("trust", ['$sce', function($sce) {
+    return function(htmlCode){
+      return $sce.trustAsHtml(htmlCode);
+    }
+  }]);
+  app.factory('Teacher', function ($resource) {
+    return $resource('/assets/data/teacher.json');
+  });
+  app.controller("TeacherSearchCtrl", function($scope, Teacher) {
+    $scope.resultLimit = 4;
+    $scope.query = '';
+    $scope.isExpanded = false;
+    $scope.teachers = [];
+    $scope.expandResults = function() {
+      $scope.resultLimit = $scope.teachers.length;
+      $scope.isExpanded = true;
+    };
+    $scope._get_img_url = function(teacher) {
+      var base = '/assets/img/teachers/portraits/';
+      var name = teacher.name.toLowerCase();
+      var filename = name.replace(/ /g, '') + '.jpg';
+      return base + filename;
+    };
+    $scope.searchFilter = function(item) {
+      function matchSubstring(a, b) {
+        /* Return true if `b.upper() in a.upper()` */
+        if (!a || !b) {
+            return true;
+        }
+        return a.toUpperCase().match(b.toUpperCase());
+      }
+      var fields = ['name', 'locations_label', 'tradition'];
+      for (var i in fields) {
+        var f = fields[i];
+        if (matchSubstring(item[f], $scope.query)) {
+          return true;
+        }
+      }
+    };
+
+    $scope.teachers = Teacher.query();
+  });
+</script>
+
+{% endblock content %}

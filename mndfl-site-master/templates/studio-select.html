@@ -1,0 +1,27 @@
+
+{% extends "base.html" %}
+
+{% block title %}Select a Studio{% endblock title %}
+{% block content %}
+
+<div class="hero">
+  <h1>Select a Studio</h1>
+  <br> <!-- add slight offset to centering -->
+  <a class="blank" href="{{ url('zingfit-greenwich') }}">
+    <button>
+      Greenwich Village
+    </button>
+  </a>
+  <a class="blank" href="{{ url('zingfit-UES') }}">
+    <button>
+      Upper East Side
+    </button>
+  </a>
+  <a class="blank" href="{{ url('zingfit-williamsburg') }}">
+    <button>
+      Williamsburg
+    </button>
+  </a>
+</div>
+
+{% endblock content %}

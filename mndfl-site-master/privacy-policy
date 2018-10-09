@@ -1,0 +1,602 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="MNDFL exists to enable humans to feel good – NYC meditation studio">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+<link rel="stylesheet" href="/assets/css/styles.css">
+<script src="https://use.fontawesome.com/30c18e4384.js"></script>
+<title>Terms & Conditions | MNDFL</title>
+
+
+
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M9Q46L');</script>
+<!-- End Google Tag Manager -->
+
+<script>
+  function toggleNav() {
+    var hamburger_icon = "☰";
+    var cross_icon = "×";
+    var hamburger = document.querySelector("header .hamburger");
+    var menu = document.querySelector("header .menu");
+    var is_nav_open = hamburger.classList.contains("open");
+    if (!is_nav_open) {
+      hamburger.classList.add("open");
+      menu.classList.remove("hidden-sm");
+      hamburger.innerHTML = cross_icon;
+    } else {
+      hamburger.classList.remove("open");
+      menu.classList.add("hidden-sm");
+      hamburger.innerHTML = hamburger_icon;
+    }
+  }
+</script>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9Q46L"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div class="container">
+    <header class="row">
+      <div class="col-xs-12 col-sm-2">
+        <a class="blank" href="/">
+          <img class="logo" src="/assets/img/logo-gray.png">
+        </a>
+        <span onclick="toggleNav()" class="hidden-lg hamburger">&#9776;</span>
+      </div>
+      <div class="hidden-sm menu col-xs-12 col-sm-10">
+        <nav>
+          <div class="link-css dropdown">
+            Studios
+            <ul>
+            <a href="locations"><li>Locations</li></a>
+            <a href="teachers"><li>Teachers</li></a>
+            <a href="classes"><li>Classes</li></a>
+            </ul>
+          </div>
+          <a href="https://mndfl.zingfit.com/">Schedule</a>
+          <a href="http://video.mndflmeditation.com/">Video</a>
+          <a href="education">MNDFL Ed.</a>
+          <a href="http://www.mndflteachertraining.com/">Teacher Training</a>
+          <a href="https://mndflmeditation.myshopify.com/">Shop</a>
+          <a href="work">@Work</a>
+        </nav>
+        <div class="registration">
+          <a href="http://mndfl.zingfit.com/reserve/index.cfm?action=Account.login">Sign up</a>
+          <a class="blank" href="http://mndfl.zingfit.com/reserve/index.cfm?action=Account.login"><button>Log In</button></a>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  
+<div class="container">
+<div class="col-md-7">
+<br>
+<br>
+<h3>Terms & Conditions</h3>
+<br>
+<p>These Terms and Conditions and Privacy Policy (collectively, the “Terms”)
+govern your use of the MNDFL Website (the “Website”). The Website is designed
+to allow users to make class and class package purchases, register for classes,
+buy merchandise, and communicate with Nest Level LLC (d/b/a MNDFL) (“MNDFL”).
+<br>
+<br>
+<h3>General Statement on Privacy, Personal Data, and Communications</h3>
+<br>
+<p>If you use the Website, you are responsible for maintaining the
+confidentiality of your account, password, and for restricting access to your
+computer or device. You agree to accept responsibility for all activities that
+occur under your account and password.
+<p>When you visit the Website or communicate with MNDFL via email, you are
+communicating electronically. You consent to receive communications from MNDFL
+electronically. MNDFL will communicate with you by email or by posting
+notifications on the Website. You understand and agree that all agreements,
+notices, disclosures, and other communications that MNDFL provides
+electronically satisfy any legal requirement that such communications be in
+writing.
+<br>
+<br>
+<h3>User Provided Information</h3>
+<br>
+<p>MNDFL does not collect any personal information about individuals – such as
+names and postal codes, home addresses, and email addresses – except when such
+information is knowingly provided to MNDFL. Personal information might be
+obtained from online transactions such as class and class package purchases,
+retail purchases, and/or class registrations. Additionally, personal
+information may be transmitted as part of a form submission or in connection
+with other activities or services made available on the Website. Any personal
+identification information retrieved by MNDFL must be voluntarily submitted by
+the user.
+<p>MNDFL may use the information provided to contact you with important
+information, required notices, and marketing promotions.  You may always choose
+to opt-out of any of these notices (other than those required by applicable
+law, rule or regulation) by selecting to do so at the bottom of each email you
+receive from us or by emailing us directly.
+<br>
+<br>
+<h3>Automatically Collected Information</h3>
+<br>
+<p>The Website collects some anonymous information about users automatically
+when individuals request pages through a browser. This information is used to
+keep track of the shopping cart and to help us monitor how individuals use the
+Website, which allows MNDFL to provide an optimal experience and better service
+throughout the online offerings. The information collected automatically by the
+server does not contain anything that can identify individuals personally, such
+as an email or home address.
+<br>
+<br>
+<h3>Security Statement</h3>
+<br>
+<p>MNDFL makes every effort to ensure that all of the transactions that occur
+on the Website are secure. All credit card numbers and transactions are
+encrypted using 128-bit Secure Socket Layer (SSL) encryption. We are concerned
+about safeguarding the confidentiality of your information. We provide
+physical, electronic, and procedural safeguards to protect information we
+process and maintain. For example, we limit access to this information to
+authorized employees and contractors who need to know that information in order
+to operate, develop or improve the Website. Please be aware that, although we
+endeavor to provide reasonable security for information we process and
+maintain, no security system can prevent all potential security breaches.
+<br>
+<br>
+<h3>What is a Secure Connection?</h3>
+<br>
+<p>When a secure connection is established between your browser and a website,
+any data that is transferred over the connection will be encrypted to prevent
+it from being viewed by a third party. SSL encryption makes it very difficult
+for anyone to intercept or decode messages exchanged over this type of secure
+connection.
+<p>Browsers such as Internet Explorer, Firefox, and Safari display an image of
+a locked padlock on their status bar when connected to a secure site. Google
+Chrome shows a green locked padlock on the far left side of the status bar when
+there is a secure SSL connection. Firefox colors the address bar yellow when
+connected to a secure site. Secure transactions are also indicated when the
+prefix in the location bar of your browser switches from http:// or https://.
+The additional ‘s’ stands for ‘secure’ and indicates a secure connection to the
+MNDFL website. If you do not see this padlock, if it is unlocked, or if the
+protocol in the location bar is not listed as https://, then any data exchanged
+with the website is potentially visible to others.
+<p>Depending on your browser, you may be able to view authentication
+information about a secure page by double-clicking on the padlock icon in the
+status bar. For more information on how your software establishes a secure
+connection, see the help files for your particular browser.
+<br>
+<br>
+<h3>Cookies</h3>
+<br>
+<p>A cookie is a small text file that is sent to your browser from a website
+and stored on your computer’s hard drive. Cookies cannot read data from your
+hard disk or read cookie files that were created by other sites – the website
+that creates a cookie is the only one a browser will permit to access it.
+<p>Like many other websites and applications, the Website uses cookies to
+obtain certain types of information. For example, MNDFL might use cookies to
+control access to certain features such as your password and account, to
+customize content areas, or to analyze site activity and user behavior. MNDFL
+reserves the right to use cookies in the future in conjunction with new content
+or expanded functionality.
+<p>If you are concerned about the use of cookies, you can explore your web
+browser’s options to notify you whenever a cookie is set, or to disallow
+cookies altogether. You should be aware that prohibiting the use of cookies
+will significantly restrict access to certain types of content or features.
+<br>
+<br>
+<h3>How Information is Used</h3>
+<br>
+<p>The following are examples of how MNDFL might use the personal information
+collected through the Website:
+    <ul>
+    <li>	If you purchase MNDFL classes or a package of classes, sign up for
+    a MNDFL class, or purchase MNDFL retail items, the required personal
+    information (similar to that provided during a telephone or mail order
+    purchase) will be used to complete your order.
+    <li>	If you indicate that you are interested in receiving MNDFL related
+    news and information, you may receive emails to the email address you
+    provided as part of the registration process.
+    <li>	Aggregate data could be analyzed to describe the collective
+    characteristics and behaviors of online visitors, and subsequently be used
+    to further optimize the effectiveness of the Website and the overall MNDFL
+    experience.
+</ul>
+<p>You can help MNDFL maintain the accuracy of your personal information by
+updating your account. Please update this information when you change your
+address, phone number, or email address. MNDFL will never share telephone
+numbers, email addresses, or any personal data with third parties.
+<p>MNDFL reserves the right to refuse service, terminate accounts, remove or
+edit content, or cancel orders, at its sole discretion.
+<br>
+<br>
+<h3>Privacy of Minors</h3>
+<br>
+<p>If you are under 18, you may register and use the Website only with the
+involvement of a parent or guardian. MNDFL does not accept the online
+registration of minors; please do not attempt to register on the Website if you
+are under the age of 18. Registration of a minor (ages 12-17) must be completed
+in person at one of our studios with a parent or guardian. 
+<p>If MNDFL discovers that personal information has been submitted by a minor
+without parent or guardian approval, MNDFL reserves the right to delete such
+information. MNDFL does not seek or share personal information from minors
+throughout the Website.
+<br>
+<br>
+<h3>Reservations/Charges</h3>
+<br>
+<p>In order to make a reservation, you must first own a single class or a
+package of classes (multiple classes). To buy an individual class or package of
+classes online, you can either sign up on the Website by using your email and
+creating a password, or if you are already registered, click login to buy a
+package and make your reservation.
+<p>You should be aware that classes and packages expire, and future prices are
+subject to change. We accept MasterCard, Visa, and American Express. Cash
+payments may only be made in a MNDFL studio. 
+<p>Your credit/debit card will be charged for your order when you submit your
+reservation. MNDFL will not process reservation charges that use an incorrect,
+expired, or over-the-limit credit card. We will make our best efforts to
+contact you if this occurs. If you fail to pay any fees or charges when due,
+services or privileges may be suspended or terminated. You shall be responsible
+and liable for any fees, including attorneys’ fees and collection costs, that
+MNDFL may incur in its efforts to collect any unpaid balances from you.
+<br>
+<br>
+<h3>Cancellation Policy</h3>
+<br>
+<p>In order to cancel a spot reserved in a MNDFL class and return the class to
+your MNDFL account, you must cancel within 5 hours of such class. If you
+haven’t cancelled within 5 hours of your class, the class will not be returned
+to your MNDFL account, you will be charged for the class, and you will not be
+issued a refund.  If you have purchased an unlimited monthly MNDFL membership
+and you have not cancelled a spot reserved in a MNDFL class within 5 hours of
+the class, MNDFL reserves the right to charge your credit card on file $10 for
+each such missed class.
+<p>You can cancel your reservation in the following ways:
+1) Log into your account and, next to the class you wish to cancel, press "unreserve."
+2) Call MNDFL to cancel the class for you.
+FOR PARTICIPANTS RUNNING LATE: We ask that you call us to let us know you are on the way. The front desk will hold your spot in the class for up to 5 minutes after class begins. Participants who are more than 5 minutes late may not be admitted into class if it is too disruptive.
+FOR PARTICIPANTS LEAVING EARLY: If you’re planning on leaving early, we kindly request that you tell your meditation instructor ahead of time and sit in the back of the studio.
+<br>
+<br>
+<h3>Waiver and Release</h3>
+<br>
+<p>By signing up for and/or attending classes, events, activities, and other
+programs and using the premises, facilities and equipment or any other location
+or venue where MNDFL is providing services (individually or collectively, the
+“Classes” and “Facilities”), you hereby acknowledge on behalf of yourself, your
+heirs, personal representatives and/or assigns, that there are certain inherent
+risks and dangers in association with the Classes and Facilities.  You
+acknowledge that some of these risks cannot be eliminated regardless of the
+care taken to avoid injuries.  At all times, you shall comply with all stated
+and customary terms, posted safety signs, rules, and verbal instructions given
+to you by the staff.  If in the subjective opinion of the MNDFL staff, you
+would be at mental or physical risk participating in MNDFL’s Classes, you
+understand and agree that you may be denied access to the Classes and
+Facilities, until you furnish an opinion letter from a medical doctor, at your
+sole cost and expense, specifically addressing MNDFL’s concerns and stating
+that MNDFL’s concerns are unfounded.  In consideration of being allowed to
+participate in and access to the Classes and Facilities, you hereby (1) agree
+to assume full responsibility for any and all injuries or damage which are
+sustained or aggravated by you in relation to Classes and Facilities, (2)
+release, indemnify, and hold harmless MNDFL and its officers, directors,
+members, employees, representatives, and agents, and each of their respective
+successors and assigns and all others, from any and all responsibility, claims,
+actions, suits, procedures, costs, expenses, damages, and liabilities to the
+fullest extent allowed by law arising out of or in any way related to
+participation in the Classes or use of the Facilities, and (3) represent that
+you (a) have no medical or physical condition that would prevent you from
+properly using any of MNDFL’s Classes or Facilities, (b) do not have a physical
+or mental condition that would put you in any physical or medical danger, and
+(c) have not been instructed by a physician to not participate in meditation or
+similar classes.
+<br>
+<br>
+<h3>Links/Third Party Websites</h3>
+<br>
+<p>MNDFL has not reviewed all the sites linked to the Website, and is not
+responsible for the content or any off-site pages or other linked sites.
+Although a third party website and/or app may contain the MNDFL logo, please
+understand that it is independent from MNDFL, and that MNDFL has no control
+over the content of that website and/or app.
+<p>Going to third party or off-site websites from the Website is at your own
+risk. These links do not imply endorsement of, sponsorship of, or affiliation
+with MNDFL.
+<br>
+<br>
+<h3>Intellectual Property Rights</h3>
+<br>
+<p>The trademarks and trade dress of MNDFL are proprietary to MNDFL and may not
+be used by you for any reasons other than as expressly permitted by these
+terms. All Website content, design, text, graphics, and interfaces; the
+collection, selection, and arrangement thereof; and all software are property
+of, or duly licensed to, MNDFL. You have the right to view, electronically
+copy, and print in hard copy portions of the Website for the sole purpose of
+making class reservations, purchases, or other personal use.
+<p>Any other use of materials on the Website, including modification,
+distribution, or reproduction for purposes other than those noted above,
+without the prior written permission of MNDFL, is strictly prohibited.
+<p>You acknowledge that MNDFL and/or third party content providers remain the
+owners of all Website materials, and that you do not acquire any of those
+ownership rights by downloading, copying, or using any such material in
+accordance with these Terms. MNDFL may discontinue or remove the Website, or
+any portion thereof, or discontinue your right to use the Website, or any
+portion thereof, at any time.
+<br>
+<br>
+<h3>NOT AUTHORIZED TO PERFORM DATA MINING</h3>
+<br>
+<p>You are not authorized without the prior written permission of MNDFL to use
+any computer code, data mining software, "robot," "bot," "spider," "scraper" or
+other automatic device, or program, algorithm or methodology having similar
+processes or functionality, or any manual process, to monitor or copy any of
+the web pages, data or content found on this Website or accessed through this
+Website. You also may not engage in the mass downloading of files from this
+Website; use the computer processing power of this Website for purposes other
+than those permitted above; flood this site with electronic traffic designed to
+slow or stop its operation; or establish links to or from other websites to
+this Website.
+<br>
+<br>
+<h3>NOT AUTHORIZED TO USE THIS WEBSITE FOR COMMERCIAL PURPOSES</h3>
+<br>
+<p>Users are not authorized to sell, reproduce, distribute, modify, display,
+publicly perform, report or otherwise prepare derivative or second hand works
+based on any of MNDFL’s material in any way for any public or commercial
+purpose. Thus, you are not authorized to (i) resell or make commercial use of
+this site or its contents; (ii) collect or use any product listings,
+descriptions, photographs or prices displayed on this Website in connection
+with the sale or resale of any MNDFL products or for other commercial purposes;
+or (iii) create, reproduce and/or distribute any materials derived from the
+content provided on this Website. Furthermore, MNDFL’s material may not be
+displayed or communicated on any other website and/or app, in a networked
+computer environment or other digital support for any purpose whatsoever. In
+the event of breach of any of these Terms, your permission to use MNDFL’s
+material will automatically terminate and any copies made of MNDFL’s material
+must be immediately destroyed.
+<p>Any unauthorized use of MNDFL’s material may violate state and federal
+criminal laws, infringe copyright laws, trademark laws, the laws of privacy or
+publicity, and communication regulations and statutes.
+<br>
+<br>
+<h3>WARRANTY DISCLAIMER</h3>
+<br>
+<p>YOU AGREE THAT YOUR USE OF THE WEBSITE SHALL BE AT YOUR OWN RISK. THE
+WEBSITE IS PROVIDED ON AN "AS IS," "AS AVAILABLE" BASIS. WITH REGARD TO THE
+WEBSITE, MNDFL AND THE THIRD PARTY LICENSORS AND AGENTS MAKE NO WARRANTY
+REGARDING YOUR USE OR PERFORMANCE OF THE WEBSITE. MNDFL HEREBY DISCLAIMS ALL
+EXPRESS OR IMPLIED REPRESENTATIONS, WARRANTIES, GUARANTIES AND CONDITIONS,
+INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED REPRESENTATIONS, WARRANTIES,
+GUARANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+TITLE AND NON-INFRINGEMENT, EXCEPT TO THE EXTENT THAT SUCH DISCLAIMERS ARE HELD
+TO BE LEGALLY INVALID. MNDFL AND THE THIRD PARTY LICENSORS AND AGENTS DO NOT
+WARRANT WITH RESPECT TO THE PERFORMANCE OR RESULTS YOU MAY OBTAIN BY USING THE
+WEBSITE OR ANY MATERIALS ON THE WEBSITE. MNDFL SHALL HAVE NO LIABILITY FOR ANY
+VIRUSES RELATED TO THE MATERIALS ON THE WEBSITE OR THE WEBSITE. WITHOUT
+LIMITING THE GENERALITY OF THE FOREGOING, MNDFL AND THE THIRD PARTY LICENSOR
+AND AGENTS DO NO WARRANT THAT (A) THE MATERIALS ON THE WEBSITE AND THE WEBSITE
+WILL MEET YOUR REQUIREMENTS, (B) THE MATERIALS ON THE WEBSITE AND THE WEBSITE
+WILL OPERATE OR BE USABLE IN COMBINATION WITH OTHER HARDWARE, SOFTWARE, SYSTEMS
+OR DATA, (C) THE OPERATION OR USE OF THE WEBSITE OR THE MATERIALS ON THE
+WEBSITE WILL BE UNINTERRUPTED OR ERROR-FREE, OR (D) ANY PROGRAM ERRORS WILL BE
+CORRECTED. YOU ASSUME ALL RESPONSIBILITY FOR DETERMINING WHETHER THE MATERIALS
+ON THE WEBSITE ARE ACCURATE OR SUFFICIENT FOR YOUR PURPOSES. MNDFL AND THE
+THIRD PARTY LICENSORS AND AGENTS SHALL HAVE NO LIABILITY OR RESPONSIBILITY FOR
+ANY PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING
+FROM YOUR ACCESS TO THE WEBSITE AND/OR USE OF THE MATERIALS ON THE WEBSITE.
+MNDFL AND THE THIRD PARTY LICENSORS AND AGENTS DO NOT MAKE ANY REPRESENTATIONS,
+WARRANTIES, GUARANTIES, OR CONDITIONS AS TO THE QUALITY, SUITABILITY, TRUTH,
+ACCURACY, OR COMPLETENESS OF THE MATERIALS CONTAINED ON THE WEBSITE.
+<br>
+<br>
+<h3>LIMITATION OF LIABILITY</h3>
+<br>
+<p>MNDFL AND ANY THIRD PARTY LICENSEORS AND AGENTS SHALL NOT BE LIABLE FOR ANY
+DAMAGES SUFFERED AS A RESULT OF USING, MODIFYING, CONTRIBUTING, COPYING,
+DISTRIBUTING OR ACCESSING THE SITE OR THE MATERIALS, AS WELL AS FOR ANY DAMAGES
+SUFFERED AS A RESULT OF THE INABILITY TO USE THE SITE OR THE MATERIALS. IN NO
+EVENT SHALL MNDFL OR ITS THIRD PARTY LICENSORS OR AGENTS BE LIABLE FOR ANY
+INDIRECT, PUNITIVE, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, HOWEVER
+ARISING, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
+ARISING OUT OF OR IN CONNECTION WITH THE USE OF THE WEBSITE MADE AVAILABLE FROM
+THE WEBSITE, EVEN IF MNDFL HAS BEEN PREVIOUSLY ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE. YOU ACKNOWLEDGE AND AGREE THAT MNDFL SHALL NOT BE LIABLE FOR THE
+DEFAMATORY, OFFENSIVE, OR ILLEGAL CONDUCT OF ANY THIRD PARTY AND THAT THE RISK
+OF HARM OR DAMAGE FROM THE FOREGOING RESTS ENTIRELY WITH YOU. AS A USER OF THE
+WEBSITE, YOUR SOLE REMEDY FOR DISSATISFACTION WITH THE WEBSITE IS TO STOP USING
+THE WEBSITE. THE FOREGOING LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST
+EXTENT PERMITTED IN THE APPLICABLE JURISDICTION.
+<br>
+<br>
+<h3>Indemnity</h3>
+<br>
+<p>You hereby agree to defend, indemnify and hold MNDFL and any third party
+licensors and agents harmless from, and you covenant not to sue MNDFL or any
+third party licensors and agents for, any claims, damages, obligations, losses,
+liabilities, costs or debt, and expenses (including, without limitation,
+attorneys’ fees) arising from or related to (a) your negligence, error,
+omission or willful misconduct, (b) your breach of any terms of these Terms, or
+(c) your use of the Website.
+<br>
+<br>
+<h3>Choice of Law</h3>
+<br>
+<p>The Website and your use hereof is governed by the laws of the State of New
+York, without regard to New York’s choice of law provisions. Any claim arising
+out of your use of this Website must be brought in New York.
+<br>
+<br>
+<h3>Policy Changes</h3>
+<br>
+<p>Occasional changes may be made to this document as new services and content
+are added to the Website to reflect changes in MNDFL’s policies. These Terms
+may be revised at any time by updating this posting. By using the Website, you
+agree to be bound by any such revisions. Users of the Website are encouraged to
+check this document periodically to stay informed of current privacy
+guidelines.
+<br>
+<br>
+<h3>Acceptance of Terms</h3>
+<br>
+<p>By using the Website, you signify your acceptance of these Terms. If you do
+not agree to this, please refrain from using the Website. Your continued use of
+the Website following the posting of changes to these Terms will indicate your
+acceptance of those changes.
+<br>
+<br>
+<br>
+<br>
+</div>
+</div>
+
+
+  <footer>
+    <section class="section bg-dark-gray center">
+      <div class="body-2">
+        Real traditions. Real teachers. Real techniques.
+      </div>
+    </section>
+    <div class="bg-light-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-xs-12">
+            <div class="hidden-sm top-container">
+              <img class="logo" src="/assets/img/logo.svg">
+
+            </div>
+            <div class="wordmark body-2">
+              MNDFL
+            </div>
+            <div class="address body-4">
+              <br>
+              <strong>Williamsburg</strong><br>
+              208 N. 8th Street<br>
+              Brooklyn, NY 11211<br>
+              718.218.6060<br>
+              <br>
+              <strong>Greenwich Village</strong><br>
+              10 E. 8th Street<br>
+              New York, NY 10003<br>
+              212.477.0487<br>
+              <br>
+              <strong>Upper East Side</strong><br>
+              239 E. 60th Street<br>
+              New York, NY 10022<br>
+              212.477.0601<br>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <div class="top-container">
+              <div class="social-icons">
+                <a href="https://www.facebook.com/mndflmeditation">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/mndflmeditation">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="https://twitter.com/mndflmeditation">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="mailto:info@mndflmeditation.com">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="row sitemap">
+              <div class="col-xs-6">
+                <ul>
+                  <li><a href="https://mndfl.zingfit.com">Schedule</a>
+                  <li><a href="classes">Classes</a>
+                  <li><a href="locations">Locations</a>
+                  <li><a href="teachers">Teachers</a>
+                  <li><a href="privacy-policy">Privacy Policy</a>
+                </ul>
+              </div>
+              <div class="col-xs-6">
+                <ul>
+                  <li><a href="work">@Work</a>
+                  <li><a href="rentals">Rental @MNDFL</a>
+                  <li><a href="education">MNDFL Ed.</a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-offset-1 col-md-4 col-xs-12">
+            <div class="subscribe body-2">
+              Join our newsletter to get the latest news, special offers,
+              announcements and event information.
+              <div class="mailchimp-subscribe">
+                <div class="submit">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="15" viewBox="0 0 43 31">
+                    <image id="arrow" width="43" height="31" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAfCAMAAABJaMRJAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA6lBMVEVOZ0r///9OZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0pOZ0oAAABZ9P82AAAATHRSTlMAABnQ6m2CYjpRW0RlPHD4Kn/yHZDoFZbjEKDVCLPMw8CxAcajaNHXxdmT8w50gMniQkxQQWEzaij2dRzv5o8J2gTNsLu6yGzWWc8MPTfkrAAAAAFiS0dETYBoIGUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAHdElNRQfgCwMAJwP8OcwCAAAA5UlEQVQ4y43TW0/CQBQE4D0iglikLSC0gMq1gBfwCgoqFUHB/f+/h9k+kMbEdOb5y2b3nFml/kT2OUgdpiUe9b890lpnSJuF1ceclZzBJ5wVy+A8Z+UUtmBzVhxgt8hZKQGXzzgrFeCqx1nxgWt1zkoD+Jy0cgF8SdoIN0nbagN3RHV7QWL6A7PAodJ8VEDTK3V9c5sUxxpFJaLeZo9B76g53JtTH6iZPRr6RO3i2dAJtePpC+gr1bPZHNSh+uu9gb5T/+JjAeoLY8NP0KVQ1nTxSyi7Al0LZb9Bf0LOblx3+xu/0g79SUzNTWDM2gAAAABJRU5ErkJggg=="/>
+                  </svg>
+                </div>
+
+
+
+
+
+          <div class="newsletter-signup">
+            <!-- Begin MailChimp Signup Form -->
+              <div id="mc_embed_signup">
+                <form action="https://mndflmeditation.us11.list-manage.com/subscribe/post?u=ffed2089e5db6cb01a0b5bab4&amp;id=284ea4eaa3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                  <div id="mc_embed_signup_scroll">
+                    <div class="mc-field-group">
+                      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter email for updates">
+                  </div>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_ffed2089e5db6cb01a0b5bab4_284ea4eaa3" tabindex="-1" value=""></div>
+                </div>
+                          <div class=" hidden submit"><input type="submit" value="Subscribe" name="subscribe" class="hidden" id="mc-embedded-subscribe"></div>
+              </form>
+            </div>
+          </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright center">
+          &copy;2018 MNDFL
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+<script>
+  function storageAvailable(type) {
+    try {
+      var storage = window[type],
+          x = '__storage_test__';
+      storage.setItem(x, x);
+      storage.removeItem(x);
+      return true;
+    }
+    catch(e) {
+      return e instanceof DOMException && (
+          // everything except Firefox
+          e.code === 22 ||
+          // Firefox
+          e.code === 1014 ||
+          // test name field too, because code might not be present
+          // everything except Firefox
+          e.name === 'QuotaExceededError' ||
+          // Firefox
+          e.name === 'NS_ERROR_DOM_QUOTA_REACHED') &&
+        // acknowledge QuotaExceededError only if there's something already stored
+        storage.length !== 0;
+    }
+  }
+  (function() {
+    /* Submit Mailchimp form on arrow click. */
+    var form = document.querySelector('#mc-embedded-subscribe-form');
+    var submit = document.querySelector('.mailchimp-subscribe .submit');
+    submit.addEventListener('click', function() { form.submit() } );
+
+  })();
+</script>
