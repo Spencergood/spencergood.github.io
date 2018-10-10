@@ -805,10 +805,15 @@ legend.MT_type--h3 {
     color: #4e674a;
     padding: 28px 0 18px 0;
 }
+.fit-form--checkbox--wrapper {
+    text-align: left;
+    margin-left: 12px;
+}
 .center .MT_button--naked {
     border: none;
     padding: 4px;
     margin-top: 8px;
 }
+
 
  
