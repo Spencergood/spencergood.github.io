@@ -805,6 +805,10 @@ legend.MT_type--h3 {
     color: #4e674a;
     padding: 28px 0 18px 0;
 }
+.MT_type--h6 {
+    text-align: left;
+    padding-bottom: 4px;
+}
 .fit-form--checkbox--wrapper {
     text-align: left;
     margin-left: 12px;
