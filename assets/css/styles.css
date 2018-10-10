@@ -766,3 +766,50 @@ footer .copyright {
           background-color: #f6f6f6; } }
 
 /*# sourceMappingURL=styles.css.map */
+
+/** Mariana Tech Styles **/
+.MT_customer-register {
+    margin-top: 32px;
+}
+.MT_form {
+    width: 100%;
+}
+.MT_form__input {
+    width: 50%;
+    float: left;
+    padding: 12px;
+}
+
+.MT_column--md {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 625px;
+    width: 100%;
+}
+.mariana-customer-register-binding {
+    margin-top: 18px;
+}
+.MT_form_register__no-name-fieldset .MT_form__input:nth-child(3), .MT_form_register__no-name-fieldset .MT_form__input:nth-child(6) {
+    /* color: red; */
+    width: 100%;
+    /* border: red solid 1px; */
+}
+div#ember48 {
+    margin: auto!important;
+    display: block;
+    width: 100%;
+}
+legend.MT_type--h3 {
+    font-size: 24px;
+    font-family: "gotham-medium";
+    color: #4e674a;
+    padding: 28px 0 18px 0;
+}
+.center .MT_button--naked {
+    border: none;
+    padding: 4px;
+    margin-top: 8px;
+}
+
+ 
